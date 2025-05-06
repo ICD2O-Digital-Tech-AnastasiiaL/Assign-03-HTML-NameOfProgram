@@ -14,7 +14,7 @@ function calculateVolume() {
     let base = parseFloat(document.getElementById('base').value);
     let height = parseFloat(document.getElementById('height').value);
 
-  // Calculation
+  // Calculation volume
   let volume = (1/2) * (length * base * height)
 
   // Display
